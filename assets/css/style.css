@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-right {
+    position: absolute;
+    right: 50px;
+}
+
+.carousel-img {
+    width: 75%;
+}
+
+.hover-alice {
+    transition: 0.5s;
+}
+.hover-alice:hover {
+    background-color: aliceblue;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.contact-form {
+    margin: auto;
+    width: 50%;
+}
+
+.contact-form .form-control {
+    margin: auto;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.contact-form .form-control:focus {
+    width: 400px;
+}
+
+.mtb {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.intro-animation {
+    position: relative;
+    animation: intro_animation 0.5s;
+}
+
+@keyframes intro_animation {
+    from {
+        top: 100px;
+        opacity: 0;
+    } to {
+        top: 0;
+        opacity: 1;
+    }
+}
